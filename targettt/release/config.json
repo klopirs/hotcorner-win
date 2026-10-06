@@ -1,0 +1,20 @@
+{
+  "top_left": {
+    "enabled": true,
+    "action": "ShowDesktop"
+  },
+  "top_right": {
+    "enabled": true,
+    "action": "TaskView"
+  },
+  "bottom_left": {
+    "enabled": false,
+    "action": "LockScreen"
+  },
+  "bottom_right": {
+    "enabled": false,
+    "action": "None"
+  },
+  "corner_size": 10,
+  "activation_delay_ms": 300
+}
