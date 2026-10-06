@@ -1,43 +1,38 @@
 # HotCorner Win
 
-Le projet s'inspire du système de Hot Corners disponible sur Linux.
+HotCorner Win is inspired by the Hot Corners feature commonly found on Linux desktop environments.
 
-## Fonctionnalités
+# Features
 
-- Configuration des 4 coins de l'écran
-- Afficher le bureau avec `Win + D`
-- Ouvrir la vue des tâches avec `Win + Tab`
-- Verrouiller Windows
-- Ouvrir une application
-- Régler le délai d'activation
-- Régler la taille de la zone de détection
-- Support multi-écrans
-- Sauvegarde de la configuration
-- Fonctionnement en arrière-plan avec le System Tray
+- Configure all four screen corners
+- Show the desktop with "Win + D"
+- Open Task View with "Win + Tab"
+- Lock Windows
+- Launch an application
+- Customize the activation delay
+- Customize the detection zone size
+- Multi-monitor support
+- Automatic configuration saving
+- Runs in the background using the System Tray
 
-## Compilation
+# Building
 
-Le projet nécessite Rust et Cargo.
+The project requires Rust and Cargo.
 
-```bash
+To run the application:
+
 cargo run
-```
 
-Pour compiler l'exécutable :
+To build the release executable:
 
-```bash
 cargo build --release
-```
 
-L'exécutable sera disponible dans :
+The executable will be generated at:
 
-```text
 target/release/hotcorner-win.exe
-```
 
-## Structure
+# Project Structure
 
-```text
 src/
 ├── ui/
 │   ├── mod.rs
@@ -47,19 +42,16 @@ src/
 ├── hotcorner.rs
 ├── main.rs
 └── tray.rs
-```
 
-## Configuration
+# Configuration
 
-Les paramètres sont sauvegardés automatiquement dans :
+Settings are automatically saved to:
 
-```text
 config.json
-```
 
-Ils peuvent être modifiés directement depuis l'interface de l'application.
+They can be modified directly through the application's interface.
 
-## Technologies
+# Technologies
 
 - Rust
 - Win32 API
