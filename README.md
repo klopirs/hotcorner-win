@@ -21,15 +21,7 @@ The project requires Rust and Cargo.
 
 To run the application:
 
-cargo run
-
-To build the release executable:
-
-cargo build --release
-
-The executable will be generated at:
-
-target/release/hotcorner-win.exe
+cargo run in the hotcorner-win folder or run the .exe file in target/release/hotcorner-win.exe
 
 # Project Structure
 
